@@ -10,12 +10,12 @@ Debt-collection AI models, includings IdentifyClassifier( 身份环节），Inte
 #### 1.模型分类任务
 run_classifier.py
 #### 2.数据处理
-get_labels
+get_labels（customized)
 #### 3.模型持久化
  ckpt2pb.py
 ## 意愿环节
 ### 1~3同上
-#### 4.dictmap1.py
+#### 4.dictmap1.py （customized)
  ##### 4.1flabel2code:将拼接的tag转化成对应的编码
  ##### 4.2 fcode2label 将编码转化成对应newtag
 ## 追问环节
@@ -24,6 +24,6 @@ get_labels
 
 ## 服务端部署与启动
 ### 5. bert-base, 来自于项目BERT-BiLSTM-CRF-NER
- #### 5.1dictmap2.py
+ #### 5.1 dictmap2.py（customized)
 ### 6.模型准确率
 ####  6.1classifiction_report
