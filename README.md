@@ -25,5 +25,5 @@ get_labels（private)
 ## 服务端部署与启动
 ### 5. bert-base, 来自于项目BERT-BiLSTM-CRF-NER
  #### 5.1 dictmap2.py（private)
-### 6.模型准确率
-####  6.1classifiction_report
+### 6.模型准确率及端口测试
+####  6.1 classifiction_report
