@@ -9,10 +9,10 @@ Debt-collection AI models, includings IdentifyClassifier( 身份环节），Inte
 ## 模型文件
 #### 2.模型分类任务
 run_classifier.py
-修改参数（private)
+修改参数
 #### 3.模型持久化
  ckpt2pb.py
- 修改参数（private)
+ 修改参数
 ## 意愿环节
 ### 1~3同上
 #### 4.dictmap1.py （private)
