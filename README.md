@@ -1,18 +1,18 @@
 # Identify-intention-BERT
 Debt-collection AI models, includings IdentifyClassifier( 身份环节），IntentionClassifer(意图环节）， Loop3Classifer(追问环节）and ModelService
 ## 身份环节
-### 训练语料:train.csv, dev.csv （private)
-##### 1.label 当前q对应的标签
-##### 2.text_re 去标点符号后的语料
-##### 3.qcat话术分类
-##### 4.dup_times语料重复的次数
+### 1. 训练语料:train.csv, dev.csv （private)
+##### label 当前q对应的标签
+##### text_re 去标点符号后的语料
+##### qcat话术分类
+##### dup_times语料重复的次数
 ## 模型文件
-#### 1.模型分类任务
+#### 2.模型分类任务
 run_classifier.py
-#### 2.数据处理
-get_labels（private)
+修改参数（private)
 #### 3.模型持久化
  ckpt2pb.py
+ 修改参数（private)
 ## 意愿环节
 ### 1~3同上
 #### 4.dictmap1.py （private)
